@@ -9,7 +9,9 @@ const OpenMenuProvider = ({ children }: ChildrenNode) => {
   const handleWrapperMenu = () => setWrapperMenu(!wrapperMenu);
 
   return (
-    <OpenMenuContext.Provider value={{ handleWrapperMenu, wrapperMenu }}>
+    <OpenMenuContext.Provider
+      value={{ handleWrapperMenu, wrapperMenu, setWrapperMenu }}
+    >
       {children}
     </OpenMenuContext.Provider>
   );
