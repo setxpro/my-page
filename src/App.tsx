@@ -1,12 +1,11 @@
 import GlobalStyle from "./Styles/GlobalStyle";
-// import { RoutesApp } from "./Routes/index";
-import Layout from "./Components/Layout";
+import { RoutesApp } from "./Routes/index";
 
 const App = () => {
   return (
     <div>
       <GlobalStyle />
-      <Layout />
+      <RoutesApp />
     </div>
   );
 };

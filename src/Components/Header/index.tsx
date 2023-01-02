@@ -17,11 +17,11 @@ export const Header = () => {
             <button onClick={handleWrapperMenu}>CLOSE</button>
           </C.ContentTopMobile>
           <C.Ul>
-            <Link to="">Home</Link>
-            <Link to="">About</Link>
-            <Link to="">Skills</Link>
-            <Link to="">Projects</Link>
-            <Link to="">Contact</Link>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/skills">Skills</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
           </C.Ul>
         </C.NavArea>
       </C.ContentHeaderLeft>
